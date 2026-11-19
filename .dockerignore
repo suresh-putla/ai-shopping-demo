@@ -1,0 +1,25 @@
+# Secrets (passed at runtime via env_file instead)
+.env
+.env.*
+
+# Local environments and VCS
+.venv/
+.git/
+
+# Python / tooling artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Not needed in images
+notebooks/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
